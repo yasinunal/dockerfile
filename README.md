@@ -22,3 +22,22 @@ With above command, we bind port 8080 on container to the port 9090 on the host.
 Open a browser, and type the URL as http://localhost:9090/ . You should be able to see the following page be loaded. Note the URL and the Tomcat version, 8.5.54
 
 ![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
+
+You can access the container through the terminal with the following command. 
+
+```bash
+docker exec -ti tomcatdev /bin/bash
+```
+Make sure to check the Tomcat installation inside the folder /opt/tomcat . Also, execute below commands to check the version of Java and Maven respectively:
+
+```bash
+java -version
+```
+![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
+
+
+```bash
+mvn -v
+```
+![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
+
