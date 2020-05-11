@@ -21,4 +21,4 @@ With above command, we bind port 8080 on container to the port 9090 on the host.
 
 Open a browser, and type the URL as http://localhost:9090/ . You should be able to see the following page be loaded. Note the URL and the Tomcat version, 8.5.54
 
-![Image description]https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png
+![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
