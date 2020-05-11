@@ -33,11 +33,11 @@ Make sure to check the Tomcat installation inside the folder /opt/tomcat . Also,
 ```bash
 java -version
 ```
-![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
+![all text](https://github.com/yasinunal/dockerfile/blob/master/java_version.png)
 
 
 ```bash
 mvn -v
 ```
-![all text](https://github.com/yasinunal/dockerfile/blob/master/tomcat_8.5.54.png)
+![all text](https://github.com/yasinunal/dockerfile/blob/master/maven_version.png)
 
