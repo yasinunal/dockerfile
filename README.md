@@ -6,6 +6,8 @@ This Dockerfile creates a container named "tomcatdev" which includes Tomcat 8.5,
 Put all files under the same folder. 
 Download "jdk-11.0.7_linux-x64_bin.tar.gz" file from Oracle website and put it under the same folder.
 
+You can set "admin" and "tomcat" user passwords or add new Tomcat user for manager-gui in create_tomcat_admin_user.sh file.
+
 Run below command to create docker image "demo/tomcat:8" 
 
 ```bash
