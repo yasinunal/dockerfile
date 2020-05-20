@@ -41,7 +41,7 @@ mvn -v
 ```
 ![all text](https://github.com/yasinunal/dockerfile/blob/master/maven_version.png)
 
-After starting Tomcat container, if you can't get 403 Access Denied when you try to open Manager App, you have to comment out "Valve" tag in context.xml file under {TOMCAT_HOME}/webapps/manager/META-INF/ directory.
+After starting Tomcat container, if you get 403 Access Denied when you try to open Manager App, you have to comment out "Valve" tag in context.xml file under {TOMCAT_HOME}/webapps/manager/META-INF/ directory.
 
 ```bash
 <Context<!--  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
