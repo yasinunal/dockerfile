@@ -44,7 +44,8 @@ mvn -v
 After starting Tomcat container, if you get 403 Access Denied when you try to open Manager App, you have to comment out "Valve" tag in context.xml file under {TOMCAT_HOME}/webapps/manager/META-INF/ directory.
 
 ```bash
-<Context<!--  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+<Context
+<!--  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />-->
 </Context>
 ```
